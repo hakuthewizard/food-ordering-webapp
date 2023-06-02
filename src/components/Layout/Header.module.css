@@ -28,3 +28,10 @@
     object-fit: cover;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
   }
+
+  @media (max-width:800px) {
+  .orderFoodHeader {
+    font-size:0.9rem;
+    width: 50%;
+  }
+}
